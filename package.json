@@ -1,0 +1,22 @@
+{
+  "name": "smart_university_bus_timetable_management_system",
+  "version": "1.0.0",
+  "description": "this is gietu bus portal, developed to track the schedules of buses",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon src/index.js"
+  },
+  "author": "Keshab Sharma, Biswajit Behera, Rohit Kumar ",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^16.4.5",
+    "ejs": "^3.1.10",
+    "express": "^4.21.1",
+    "express.js": "^1.0.0",
+    "mongodb": "^6.10.0",
+    "mongoose": "^8.8.1",
+    "nodemon": "^3.1.7"
+  }
+}

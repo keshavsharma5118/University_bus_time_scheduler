@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="/css/header.css">
+    <link rel="stylesheet" href="/css/contact.css">
+   <link rel="icon" href="https://res.cloudinary.com/djs6fkhxl/image/upload/v1731568770/GIETU%20TRANSIT%20PORTAL/yuh4rxav1ymgl0rtjtlv.jpg" type="image/png">
+</head>
+<body>
+    <header>
+        <!-- Top Purple Bar -->
+        <div class="top-bar">
+            <img src="https://res.cloudinary.com/djs6fkhxl/image/upload/v1725771042/giet-removebg-preview_egvpev.png" alt="GIETU Logo" class="logo">
+            <h1 class="portal-title">GIETU TRANSIT PORTAL</h1>
+            <img src="https://res.cloudinary.com/djs6fkhxl/image/upload/v1725738142/Flag_of_India_b2dqwp.png" alt="Indian Flag" class="flag">
+        </div>
+        
+        <!-- Yellow Navigation Bar -->
+        <nav class="navbar">
+            <div class="datetime">
+                <span id="date"></span> || <span id="time"></span>
+            </div>
+            <ul>
+                <li><a href="/home">Home</a></li>
+                <li><a href="/about">About</a></li>
+                <li><a href="/contact">Contact</a></li>
+                <li><a href="/login">Login</a></li>
+                
+            </ul>
+        </nav>
+  
+    </header>
+
+    <main>
+        <div class="contact-form-container">
+            <h2>Contact Us</h2>
+            <form id="contact-form">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="subject">Subject:</label>
+                    <input type="text" id="subject" name="subject" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </main>
+    <script src="/js/script.js"></script>
+</body>
+</html>

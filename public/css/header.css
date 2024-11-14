@@ -1,0 +1,70 @@
+/* Global Styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Top Purple Bar */
+.top-bar {
+    background-color: #3f2383; /* Purple background */
+    color: #fff;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 60px; /* Adjust as needed */
+}
+
+.flag {
+    width: 50px; /* Adjust as needed */
+}
+
+.portal-title {
+    flex-grow: 1;
+    text-align: left;
+    padding-left: 2vh;
+    font-size: 24px;
+    font-weight: bold;
+    color: #ffdc2b; /* Yellow text color */
+    margin: 0;
+}
+
+/* Navigation Bar */
+.navbar {
+    background-color: #f9c00c; /* Yellow background */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.datetime {
+    color: #3f2383; /* Purple text color */
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.navbar ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar ul li {
+    margin: 0 10px;
+}
+
+.navbar ul li a {
+    color: #3f2383; /* Purple text color */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.navbar ul li a:hover {
+    text-decoration: underline;
+}
